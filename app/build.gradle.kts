@@ -30,7 +30,12 @@ android {
     buildFeatures{
         viewBinding = true
     }
+
 }
+
+
+
+
 
 dependencies {
     implementation("com.github.bumptech.glide:glide:4.16.0")
@@ -47,6 +52,7 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-storage")
     implementation("com.yandex.android:maps.mobile:4.5.1-lite")
+
 
 
 }
